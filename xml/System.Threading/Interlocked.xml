@@ -1919,7 +1919,7 @@ If `comparand` and the value in `location1` are equal by reference, then `value`
       <Docs>
         <param name="location1">The variable to set to the specified value.</param>
         <param name="value">The value to which the <paramref name="location1" /> parameter is set.</param>
-        <summary>Sets a platform-specific handle or pointer to a specified value and returns the original value, as an atomic operation.</summary>
+        <summary>Sets a native-sized signed integer to a specified value and returns the original value, as an atomic operation.</summary>
         <returns>The original value of <paramref name="location1" />.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.NullReferenceException">The address of <paramref name="location1" /> is a <see langword="null" /> pointer.</exception>
@@ -2274,7 +2274,7 @@ If `comparand` and the value in `location1` are equal by reference, then `value`
       <Docs>
         <param name="location1">The variable to set to the specified value.</param>
         <param name="value">The value to which the <paramref name="location1" /> parameter is set.</param>
-        <summary>Sets a platform-specific handle or pointer to a specified value and returns the original value, as an atomic operation.</summary>
+        <summary>Sets a native-sized unsigned integer to a specified value and returns the original value, as an atomic operation.</summary>
         <returns>The original value of <paramref name="location1" />.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.NullReferenceException">The address of <paramref name="location1" /> is a <see langword="null" /> pointer.</exception>
