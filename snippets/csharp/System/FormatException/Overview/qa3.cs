@@ -26,7 +26,7 @@ public class FormatExample13
          Console.WriteLine("FormatException");
       }
    }
-   
+
    public static void WontThrow()
    {
       // <Snippet24>
@@ -38,7 +38,7 @@ public class FormatExample13
       Console.WriteLine(result);
       // </Snippet24>
    }
-   
+
    public static void Recommended()
    {
       // <Snippet25>
